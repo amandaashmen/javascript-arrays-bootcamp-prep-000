@@ -33,10 +33,10 @@ function removeElementFromBeginningOfArray(array) {
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-  array.unshift()
+  array.pop()
   return array
 }
 
 function removeElementFromEndOfArray(array) {
-  return iceCreams.slice(0, iceCreams.length -1)
+  iceCreams.slice(0, iceCreams.length -1)
 }
