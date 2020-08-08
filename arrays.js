@@ -22,18 +22,18 @@ function accessElementArray(array, index) {
   return array[index]
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array, add) {
+function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array.shift()
 }
 
-function removeElementFromBeginningOfArray(array, add) {
+function removeElementFromBeginningOfArray(array) {
   return array.slice(1)
 }
 
-function destructivelyRemoveElementFromEndOfArray(array, add) {
+function destructivelyRemoveElementFromEndOfArray(array) {
   return array.unshift()
 }
 
-function removeElementFromEndOfArray(array, add) {
+function removeElementFromEndOfArray(array) {
   return iceCreams.slice(0, iceCreams.length -1)
 }
