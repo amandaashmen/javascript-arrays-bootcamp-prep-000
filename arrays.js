@@ -9,15 +9,15 @@ function destructivelyAddElementToBeginningOfArray(array, add) {
 }
 
 function addElementToEndOfArray(array, add) {
-  return newArray
+  return [...array, add]
 }
 
 function destructivelyAddElementToEndOfArray(array, add) {
-  return array
+  return array.shift(add)
 }
 
 function accessElementArray(array, index) {
-  return item
+  return array[index]
 }
 
 function destructivelyRemoveElementToBeginningOfArray(array, add) {
