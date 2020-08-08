@@ -34,5 +34,5 @@ function destructivelyRemoveElementFromEndOfArray(array, add) {
 }
 
 function removeElementFromEndOfArray(array, add) {
-  return array.unshift()
+  return iceCreams.slice(0, iceCreams.length -1)
 }
